@@ -2,7 +2,7 @@
 
 <body style="background-color:lightblue;">
 
-<center> <h1>     <a target="_blank" title="follow me on instagram" href="http://www.instagram.com/clamarca1"><img alt="follow me on instagram" src="https://c866088.ssl.cf3.rackcdn.com/assets/instagram40x40.png" border=0></a>      Charles LaMarca             <input type="button" value="About me" onclick="window.location.href='aboutme.html'" />     <input type="button" value="Resume" onclick="window.location.href='resume.html'" />     <input type="button" value="Home" onclick="window.location.href='index.html'" /> </h1> </center>
+<center> <h1>    <IMG SRC="logo.png" width="100">  <a target="_blank" title="follow me on instagram" href="http://www.instagram.com/clamarca1"><img alt="follow me on instagram" src="https://c866088.ssl.cf3.rackcdn.com/assets/instagram40x40.png" border=0></a>      Charles LaMarca             <input type="button" value="About me" onclick="window.location.href='aboutme.html'" />     <input type="button" value="Car" onclick="window.location.href='cars.html'" />     <input type="button" value="Home" onclick="window.location.href='index.html'" /> </h1> </center>
 
 
 
@@ -14,6 +14,51 @@
 
 
 
+<IMG SRC="download.jpg" width="300">
+
+<IMG SRC="logos.png" width="500">
+
+
+<p> <font size="5" color="red">  My Future plan is to take over my family business operations, Im 5th generation in the bakery enterprises and i love going there. We are the largest bakery distributor in New england and we sell our product across the country to multiple supermarket and gas station chains. We service fresh bread and bakery products daily in new england to 4,000 customers. That all happens with our fleet of over 100 trucks. We have 3 main depots stationed throughout New England  with another one coming in the next couple years.      </font>   </p>
+
+
+
+
+
+
+
+<h2 class="w3-center">Some Pictures</h2>
+
+<div class="w3-content w3-display-container">
+    <img class="mySlides" src="pic1.jpg" style="width:100%">
+    <img class="mySlides" src="pic2.jpg" style="width:100%">
+    <img class="mySlides" src="pic3.jpg" style="width:100%">
+    <img class="mySlides" src="pic4.jpg" style="width:100%">
+    <img class="mySlides" src="pic5.jpg" style="width:100%">
+    <img class="mySlides" src="pic6.jpg" style="width:100%">
+    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+        showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[slideIndex-1].style.display = "block";
+    }
+</script>
 
 
 
